@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+article {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+

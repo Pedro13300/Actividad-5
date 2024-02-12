@@ -1,1 +1,19 @@
-<p>blog works!</p>
+<div class="blog">
+    <div>
+      <label for="titulo">Titulo:</label>
+      <input type="text" id="titulo" [(ngModel)]="newAficion.titulo">
+    </div>
+    <div>
+      <label for="imagen">Imagen:</label>
+      <input type="url" id="imagen" [(ngModel)]="newAficion.imagen">
+    </div>
+    <div>
+      <label for="texto">Texto:</label>
+      <input type="text" id="texto" [(ngModel)]="newAficion.texto">
+    </div>
+    <div>
+      <label for="fecha">Fecha:</label> 
+      <input type="date" id="fecha" [(ngModel)]="newAficion.fecha"> 
+    </div>
+    <button (click)="guardar()">Enviar</button>
+  </div>
