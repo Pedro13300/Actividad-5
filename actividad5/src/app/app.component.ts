@@ -14,15 +14,15 @@ import { IAfición } from './interfaces/iafición.interface';
 export class AppComponent {
   arrAficiones: IAfición[] = [
     {
-      titulo: 'Fútbol',
+      titulo: 'El fútbol',
       imagen: 'https://via.placeholder.com/150',
-      texto: 'El dia que jugue un partido',
+      texto: 'La final del mundial de sudáfrica 2010 al ganar España a Holanda 1-0',
       fecha: ('18/12/2023')
     },
     {
       titulo: 'PLAYSTATION 5',
       imagen: 'https://via.placeholder.com/150',
-      texto: 'Cuando gané al Battlefield 3',
+      texto: 'Cuando gané el torneo de Battlefield 3',
       fecha: ('20/05/2023')
     }
   ]
